@@ -1,4 +1,5 @@
 /* 
+//! ───────────────────────────────────────────────────────── INITIAL SETUP ─────
 1. visit: console.firebase.google.com
 2. create a new firebase project
 3. Visit doc (go to docs): Build > Authentication > web > Getting started
@@ -6,7 +7,7 @@
 5. install firebase for your project: npm install firebase
 6. DANGEROUS: get firebase config and put it in firebase.init.js
 7. export app from firebase.init.js
-//@ ─────────────────────────────────────────────────────────────────────────────
+//! ─────────────────────────────────────────────────── SETUP THE PROVIDER ─────
 8. create auth using getAuth from firebase by using app from firebase.init.js
 9. create a google auth provider. do not forget to use   new GoogleAuthProvider();
 10. go to firebase > Build > Authentication > Sign In method
